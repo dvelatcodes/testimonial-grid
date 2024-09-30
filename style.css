@@ -36,6 +36,7 @@ main {
   grid-area: a;
   border-radius: 0.9rem;
   position: relative;
+  padding-bottom: 3rem;
 }
 
 img {
@@ -109,12 +110,15 @@ h2 {
 .jonah p:nth-of-type(1),
 .patrick p:nth-of-type(1) {
   color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .kira p:nth-of-type(1),
 .harmon p:nth-of-type(1){
   color: hsl(219, 29%, 14%);
-  opacity: 70%;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .daniel p:nth-of-type(2),
@@ -122,11 +126,14 @@ h2 {
 .patrick p:nth-of-type(2) {
   color: hsl(0, 0%, 100%);
   opacity: 70%;
+  margin-top: 1.4rem;
 }
 
 .kira p:nth-of-type(2),
 .harmon p:nth-of-type(2){
   color: hsl(219, 29%, 14%);
+  opacity: 70%;
+  margin-top: 1.4rem;
 }
 
 
