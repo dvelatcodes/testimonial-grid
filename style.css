@@ -23,27 +23,37 @@ body{
 main{
   width: 75%;
   height: 70%;
-  
+  display: grid;
+  grid-template-areas: 
+  'a a b c'
+  'd e e c'
+  ;
+  gap: 1.5rem;
 }
 
 .daniel{
   background-color: hsl(263, 55%, 52%);
+  grid-area: a;
 }
 
 .jonah {
   background-color: hsl(217, 19%, 35%);
+  grid-area: b;
 }
 
 .kira {
   background-color: hsl(0, 0%, 100%);
+  grid-area: c;
 }
 
 .harmon {
   background-color: hsl(0, 0%, 100%);
+  grid-area: d;
 }
 
 .patrick {
   background-color: hsl(219, 29%, 14%);
+  grid-area: e;
 }
 
 
