@@ -12,12 +12,12 @@
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   /* flex-direction: column; */
   background-color: hsl(0, 0%, 81%);
   width: 100vw;
   height: 100vh;
+  padding-top: 4rem;
 }
 
 main {
@@ -36,7 +36,6 @@ main {
   grid-area: a;
   border-radius: 0.9rem;
   position: relative;
-  padding-bottom: 3rem;
 }
 
 img {
@@ -98,7 +97,6 @@ h2 {
   color: hsl(219, 29%, 14%);
 }
 
-.daniel,
 .jonah,
 .kira,
 .harmon,
@@ -106,19 +104,23 @@ h2 {
   padding: 2rem 2rem 0 2rem;
 }
 
+.daniel, .patrick {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
 .daniel p:nth-of-type(1),
 .jonah p:nth-of-type(1),
 .patrick p:nth-of-type(1) {
   color: hsl(0, 0%, 100%);
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .kira p:nth-of-type(1),
 .harmon p:nth-of-type(1){
   color: hsl(219, 29%, 14%);
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .daniel p:nth-of-type(2),
