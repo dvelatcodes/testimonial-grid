@@ -129,6 +129,7 @@ h2 {
   color: hsl(0, 0%, 100%);
   opacity: 70%;
   margin-top: 1.4rem;
+  line-height: 1.4rem;
 }
 
 .kira p:nth-of-type(2),
@@ -136,6 +137,7 @@ h2 {
   color: hsl(219, 29%, 14%);
   opacity: 70%;
   margin-top: 1.4rem;
+  line-height: 1.4rem;
 }
 
 
