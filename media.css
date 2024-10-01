@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-areas: 
+    'a b'
+    'c d'
+    'e e';
+  }
+
+  .daniel {
+    grid-area: a;
+  }
+  .jonah {
+    grid-area: d;
+  }
+  .harmon {
+    grid-area: c;
+  }
+  .patrick  {
+    grid-area: b;
+  }
+  .kira {
+    grid-area: e;
+  }
+}
