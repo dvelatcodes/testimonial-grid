@@ -1,9 +1,11 @@
 @media screen and (max-width: 768px) {
   main {
-    grid-template-areas: 
-    'a b'
-    'c d'
-    'e e';
+    width: 80%;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e e";
+    gap: 1.2rem;
   }
 
   .daniel {
@@ -11,14 +13,16 @@
   }
   .jonah {
     grid-area: d;
+    padding: 2rem 2rem 2rem 2rem;
   }
   .harmon {
     grid-area: c;
   }
-  .patrick  {
+  .patrick {
     grid-area: b;
   }
   .kira {
     grid-area: e;
+    padding: 2rem 2rem 2rem 2rem;
   }
 }
