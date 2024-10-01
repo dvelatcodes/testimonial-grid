@@ -27,7 +27,7 @@ main {
   grid-template-areas:
     "a a b c"
     "d e e c";
-  gap: 1.5rem;
+  gap: 1.3rem;
   font-family: var(--font-barlow);
 }
 
@@ -157,28 +157,87 @@ h2 {
   background-color: hsl(0, 0%, 100%);
   grid-area: c;
   border-radius: 0.9rem;
+  animation: kiraAnim 1.5s ease-in-out;
+}
+
+@keyframes kiraAnim {
+  0% {
+    transform: translateX(100%);
+  }
+  70% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .harmon {
   background-color: hsl(0, 0%, 100%);
   grid-area: d;
   border-radius: 0.9rem;
+  animation: harmAnim 1.5s ease-in-out;
+}
+
+@keyframes harmAnim {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 .patrick {
   background-color: hsl(219, 29%, 14%);
   grid-area: e;
   border-radius: 0.9rem;
+  animation: patAnim 1.5s ease-in-out;
+}
+
+@keyframes patAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.jonah{
+  animation: jonaAnim 1.5s ease-in-out;
+}
+
+@keyframes jonaAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.daniel{
+  animation: danAnim 1.5s ease-in-out;
+}
+
+@keyframes danAnim {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 
 
 
 
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
