@@ -1,11 +1,17 @@
 @media screen and (max-width: 768px) {
   main {
-    width: 80%;
+    width: 90%;
     grid-template-areas:
       "a b"
       "c d"
       "e e";
     gap: 1.2rem;
+  }
+
+  .daniel > img {
+    width: 100px;
+    height: 100px;
+    right: 1rem;
   }
 
   .daniel {
@@ -24,5 +30,41 @@
   .kira {
     grid-area: e;
     padding: 2rem 2rem 2rem 2rem;
+  }
+
+  .daniel p:nth-of-type(1),
+  .jonah p:nth-of-type(1),
+  .patrick p:nth-of-type(1),
+  .kira p:nth-of-type(1),
+  .harmon p:nth-of-type(1) {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e";
+  }
+
+  .daniel {
+    grid-area: a;
+  }
+  .jonah {
+    grid-area: b;
+  }
+  .harmon {
+    grid-area: c;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .patrick {
+    grid-area: d;
+  }
+  .kira {
+    grid-area: e;
   }
 }
